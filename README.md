@@ -11,4 +11,4 @@
  
  [Practice 6](https://github.com/Broman3113/practice4-6/tree/master/practice6 "Практическая работа №6")  Практическая работа №6
 
- | [Скриншот 6](https://github.com/Broman3113/practice4-6/blob/master/practice5/practice6.pdf "Скриншот практической работы №6")  Скриншот практической работы №6
+ | [Скриншот 6](https://github.com/Broman3113/practice4-6/blob/master/practice6/practice6.pdf "Скриншот практической работы №6")  Скриншот практической работы №6
