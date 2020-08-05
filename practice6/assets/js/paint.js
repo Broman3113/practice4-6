@@ -1,16 +1,21 @@
 window.onload = function () { start(); }
 function start() {
     let canvas = document.getElementById('draw');
+    let output = document.getElementById("demo");
     const context = canvas.getContext("2d");
     let myColor = 'black';
     let myWidth = '5';
-
     document.getElementById('color').oninput = function () {
         myColor = this.value;
     }
     document.getElementById('width').oninput = function () {
         myWidth = this.value;
+        output.innerHTML = this.value;
     }
+    
+     // Display the default slider value
+
+    // Update the current slider value (each time you drag the slider handle)
 
     let clickX = new Array();
     let clickY = new Array();
@@ -39,7 +44,7 @@ function start() {
     });
     canvas.addEventListener('mouseup', function (e) {
         paint = false;
-        
+
     });
     canvas.addEventListener('mouseleave', function (e) {
         paint = false;
